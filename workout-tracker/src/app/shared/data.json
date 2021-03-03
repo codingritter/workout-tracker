@@ -1,0 +1,121 @@
+{
+    "excercises": {
+        "pushup": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "decline_pushup": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "dumbell_rows": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "shoulder_press": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "pullup": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "bicep": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "tricep": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            },
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ],
+        "face_pull": [
+            {
+                "gewicht": "",
+                "wiederholungen": ""
+            }
+        ]
+        
+    }
+}
