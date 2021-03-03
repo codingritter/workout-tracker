@@ -12,7 +12,7 @@
 }
 
 .excercise {
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .title {
@@ -24,6 +24,7 @@ form {
 }
 .button{
     margin-right: 50px;
+    margin-bottom: 10px;
   
 }
 .buttons {
@@ -31,4 +32,10 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.submit {
+    margin-right: 10px;
+}
+.gewichtAbstand {
+    margin-right: 65px;
 }

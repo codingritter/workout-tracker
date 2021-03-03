@@ -22,16 +22,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.pushup; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.pushup, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen"  class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -45,16 +45,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.dumbell_rows; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.dumbell_rows, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="dumbell_rows" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="dumbell_rows" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(dumbell_rows, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -69,16 +69,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.decline_pushup; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.decline_pushup, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.excercises.decline_pushup, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -93,16 +93,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.shoulder_press; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.shoulder_press, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.shoulder_press, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -117,16 +117,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.pullup; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.pullup, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pullup, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -141,16 +141,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.bicep; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.bicep, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.bicep, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -167,16 +167,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.tricep; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.tricep, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.tricep, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
@@ -192,16 +192,16 @@
         <br>
         <div class="box" *ngFor="let item of excercises.face_pull; let i = index">
           <form (ngSubmit)="onSubmit(f, excercises.tricep, i)" #f="ngForm">
-            <b>Set {{i+1}}</b>
+            <b>Set: {{i+1}}</b>
             <br>
-            <label for="gewicht">Gewicht</label>
+            <label for="gewicht" class="gewichtAbstand">Gewicht</label>
             <input type="text" name="gewicht" id="pushup" size="2" ngModel required>
             <br>
-            <label for="wiederholungen">Wiederholungen</label>
+            <label for="wiederholungen" class="submit">Wiederholungen</label>
             <input type="text" name="wiederholungen" id="pushup" size="2" ngModel required>
             <br><br>
-            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning">
-            <input type="button" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.pushup, i)">
+            <input type="submit" value="Bestätigen" [disabled]="f.invalid" class="btn btn-warning submit">
+            <input type="reset" value="Reset" class="btn btn-danger" (click)="onResetItem(excercises.face_pull, i)">
             <br><br>
             <p>Letztes Workout: <br> Gewicht: {{item.gewicht}} kg <br> Wiederholungen: {{item.wiederholungen}}</p>
           </form>
